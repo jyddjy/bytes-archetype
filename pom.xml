@@ -5,7 +5,7 @@
     <groupId>com.bytes.bfs</groupId>
     <artifactId>bytes-archetype</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
@@ -18,12 +18,12 @@
         </snapshotRepository>
     </distributionManagement>
 
-    <scm>
-        <url>https://code.aliyun.com/bytes-1024/bytes-archetype.git</url>
-        <connection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</connection>
-        <developerConnection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</developerConnection>
-        <tag>bytes-archetype-1.0.0</tag>
-    </scm>
+<!--    <scm>-->
+<!--        <url>https://code.aliyun.com/bytes-1024/bytes-archetype.git</url>-->
+<!--        <connection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</connection>-->
+<!--        <developerConnection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</developerConnection>-->
+<!--        <tag>bytes-archetype-1.0.0</tag>-->
+<!--    </scm>-->
 
     <properties>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
