@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bytes.bfs</groupId>
+    <artifactId>bytes-archetype</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.0-SNAPSHOT</version>
+
+    <distributionManagement>
+        <repository>
+            <id>rdc-releases</id>
+            <url>https://packages.aliyun.com/maven/repository/2017832-release-vX53as/</url>
+        </repository>
+        <snapshotRepository>
+            <id>rdc-snapshots</id>
+            <url>https://packages.aliyun.com/maven/repository/2017832-snapshot-INTABD/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <scm>
+        <url>https://code.aliyun.com/bytes-1024/bytes-archetype.git</url>
+        <connection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</connection>
+        <developerConnection>scm:git:https://code.aliyun.com/bytes-1024/bytes-archetype.git</developerConnection>
+        <tag>bytes-archetype-1.0.0</tag>
+    </scm>
+
+    <properties>
+        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+    </properties>
+
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-dependencies</artifactId>
+            <version>2.3.1.RELEASE</version>
+            <type>pom</type>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-dependencies -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-dependencies</artifactId>
+            <version>${spring-cloud.version}</version>
+            <type>pom</type>
+            <scope>runtime</scope>
+        </dependency>
+
+    </dependencies>
+
+</project>
