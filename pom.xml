@@ -20,6 +20,19 @@
         <module>integration-test</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+
+            <dependency>
+                <groupId>com.bytes.bfs.archetype</groupId>
+                <artifactId>maven_archetype_common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
+
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>
