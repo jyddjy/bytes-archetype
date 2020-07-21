@@ -14,5 +14,9 @@ mvn install or mvn deploy
 
 ### 根据脚手架生成项目
 ```text
-mvn archetype:generate -DarchetypeGroupId=com.bytes.bfs -DarchetypeArtifactId=maven-archetype  -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=com.bytes.bfs -DartifactId=bfs-demo -Dversion=1.0.0-SNAPSHOT -Dpackage=com.bytes.bfs.demo
+mvn archetype:generate -DarchetypeGroupId=com.bytes.bfs -DarchetypeArtifactId=maven-archetype  -DarchetypeVersion=1.0.0-SNAPSHOT -DgroupId=com.bytes.bfs.demo -DartifactId=bfs-demo -Dversion=1.0.0-SNAPSHOT
+
+-DgroupId=com.bytes.bfs.demo 生成新项目默认使用得包名,使用groupId值
+ 
 ```
+
