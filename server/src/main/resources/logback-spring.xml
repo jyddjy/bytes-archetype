@@ -30,7 +30,7 @@
         <root level="info">
             <appender-ref ref="Console"/>
         </root>
-        <logger name="com.bytes" level="debug" additivity="false">
+        <logger name="com.hope" level="debug" additivity="false">
             <appender-ref ref="Console"/>
         </logger>
     </springProfile>
@@ -42,21 +42,19 @@
             <appender-ref ref="Console"/>
         </logger>
     </springProfile>
-
     <springProfile name="unittest">
         <root level="warn">
             <appender-ref ref="ColorfulConsole"/>
         </root>
-        <logger name="com.hope" level="debug" additivity="false">
+        <logger name="com.bytes" level="debug" additivity="false">
             <appender-ref ref="ColorfulConsole"/>
         </logger>
     </springProfile>
-
     <springProfile name="local">
         <root level="info">
             <appender-ref ref="ColorfulConsole"/>
         </root>
-        <logger name="com.hope" level="debug" additivity="false">
+        <logger name="com.bytes" level="debug" additivity="false">
             <appender-ref ref="ColorfulConsole"/>
         </logger>
     </springProfile>
