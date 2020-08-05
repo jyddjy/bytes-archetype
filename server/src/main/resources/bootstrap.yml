@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: bfs_demo
+  cloud:
+    nacos:
+      config:
+        namespace: a8abe9bb-a82f-4531-8284-97e2527e11a8
+        file-extension: yaml
+        group: BFS
+        prefix: demo_cloud_config
+        server-addr: jyddjy.vcmps.com:80
+        refresh-enabled: true
+        #        username: "nacos"
+        #        password: "*a2881076"
+        #        context-path: /nacos
+        encode: UTF-8

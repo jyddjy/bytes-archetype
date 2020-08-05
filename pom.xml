@@ -25,7 +25,7 @@
 
             <dependency>
                 <groupId>com.bytes.bfs.archetype</groupId>
-                <artifactId>maven_archetype_common</artifactId>
+                <artifactId>maven_archetype-common</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
