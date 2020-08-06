@@ -13,7 +13,10 @@
     </parent>
 
     <properties>
-        <spring-cloud-alibaba-nacos.version>2.2.1.RELEASE</spring-cloud-alibaba-nacos.version>
+        <spring-cloud-alibaba-nacos-config.version>2.2.1.RELEASE</spring-cloud-alibaba-nacos-config.version>
+        <spring-cloud-alibaba-nacos-discovery.version>2.2.0.RELEASE</spring-cloud-alibaba-nacos-discovery.version>
+
+
     </properties>
 
     <dependencies>
@@ -63,7 +66,13 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
-            <version>${spring-cloud-alibaba-nacos.version}</version>
+            <version>${spring-cloud-alibaba-nacos-config.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+            <version>${spring-cloud-alibaba-nacos-discovery.version}</version>
         </dependency>
 
         <dependency>
