@@ -50,11 +50,6 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.bytes.bfs</groupId>
-            <artifactId>support-data-box</artifactId>
-        </dependency>
-
         <!-- https://mvnrepository.com/artifact/com.alibaba.cloud/spring-cloud-starter-alibaba-nacos-config -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
