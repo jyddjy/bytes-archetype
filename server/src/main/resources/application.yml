@@ -14,8 +14,6 @@ server:
     direct-buffers: true
 
 spring:
-  application:
-    name: maven_archetype
   # shutdown graceful 优雅停止缓冲时间
   lifecycle:
     timeout-per-shutdown-phase: 10s
